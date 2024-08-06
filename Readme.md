@@ -26,7 +26,17 @@ O-->P(Mapa de Escuelas)
 AGRICULTURA-->Q(Ministerio de Desarrollo Agrario y Riego)
 Q-->R(Geoportal del MIDAGRI)
 Q-->S(Visor geográfico del MIDAGRI)
-STANDBY-->AA(197)
+I-->W(Ministerio de Energía y Minas)
+W-->T(Visor de Mapas de Electrificación Rural - DGER)
+W-->U(Visor de mapas del Potencial Hidroeléctrico en la cuentas)
+W-->V(Visor de mapas del potencial eólico del Perú 2016)
+AA(COMERCIO EXTERIOR Y TURISMO)-->AB(Ministerio de Comercio Exterior y Turismo)
+AB-->AC(Mapa de ubicación de recursos turísticos y emprendimientos de turismo rural)
+AB-->AD(Mapa interactivo)
+PRODUCCIÓN-->AE(Ministerio de la Producción)
+AE-->AF(SIGEO PRODUCE)
+AG(Ministerio de Transportes y Comunicaciones)-->AH(Sistema Integrado de Información Vial SIIV)
+STAYED-->ZZ(242)
 
 click C "https://ide.inei.gob.pe/"
 click D "http://gisem.osinergmin.gob.pe/menergetico/"
@@ -40,5 +50,13 @@ click N "http://geobosques.minam.gob.pe/geobosque/visor/"
 click P "http://sigmed.minedu.gob.pe/mapaeducativo/"
 click R "https://geo.midagri.gob.pe/"
 click S "https://geovisor.midagri.gob.pe/"
+click T "https://mapas.minem.gob.pe/map_dger/"
+click U "https://mapas.minem.gob.pe/map_hidroelectrico/"
+click V "http://mapas.minem.gob.pe/map_eolico/"
+click AC "https://sigmincetur.mincetur.gob.pe/turismo/"
+click AD "https://www.mincetur.gob.pe/centro_de_Informacion/mapa_interactivo/"
+click AF "http://sigeo.produce.gob.pe/appgis/"
+click AH "http://sijv.mtc.gob.pe/"
+
 
 ```
